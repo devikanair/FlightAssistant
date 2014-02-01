@@ -9,4 +9,12 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+<servlet>
+    <servlet-name>FlightInfoServlet</servlet-name>
+    <servlet-class>edu.soc.FlightInfoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FlightInfoServlet</servlet-name>
+    <url-pattern>/flightinfo</url-pattern>
+</servlet-mapping>
 </web-app>

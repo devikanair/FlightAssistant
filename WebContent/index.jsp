@@ -17,7 +17,7 @@
 </div>
 <div class="mainbody">
 Enter your itinerary details
-<form method="POST" action="result.jsp">
+<form method="POST" action="flightinfo">
 Flight Number: <input type="text" name="flightNumber"/>
 Origin Airport: <input type="text" name="fromAirport"/>
 Date: <input type="text" name="date"/>
