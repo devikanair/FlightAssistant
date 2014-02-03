@@ -29,7 +29,10 @@
 		${flight.flightNumber } has ${flight.stops } stops between the 2
 		airports <br />
 		<br /> Contact ${flight.carrierName } at ${flight.carrierPhone } for
-		any queries <br /> <a href="index.jsp">Go Back</a> <br /> Thank you
+		any queries <br /> <br/><br/>
+		Expected weather at ${flight.departureAirportCity } is ${weatherD.forecastTextDay }. During the night weather is ${weatherD.forecastTextNight }<br/><br/>
+		Expected weather at ${flight.arrivalAirportCity } when you arrive is ${weatherA.forecastTextDay }. During the night weather is ${weatherA.forecastTextNight} <br/><br/>
+		<a href="index.jsp">Go Back</a> <br /> Thank you
 		for using Bon Voyage travel assistant by Karthika P and Devika Nair. <br />
 	</div>
 </body>
