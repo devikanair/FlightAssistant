@@ -1,74 +1,145 @@
 package edu.soc.models;
 
 public class Flight {
-	private String origin;
-	private String flightNum;
-	private String destination;
-	private String carrier;
-	private String originLong;
-	private String destinationLong;
+	private String departureAirport;
+	private String departureAirportName;
+	private String departureAirportCity;
+	private String departureAirportTerminal;
+
+	private String arrivalAirport;
+	private String arrivalAirportName;
+	private String arrivalAirportCity;
+	private String arrivalAirportTerminal;
+
+	private String stops;
+
 	private String arrivalTime;
-	private String arrivalDate;
-	private String depTime;
-	private String depDate;
-	public String getOrigin() {
-		return origin;
+	private String departureTime;
+
+	private String carrier;
+	private String carrierName;
+	private String carrierPhone;
+
+	private String flightNumber;
+
+	public String getDepartureAirport() {
+		return departureAirport;
 	}
-	public void setOrigin(String origin) {
-		this.origin = origin;
+
+	public void setDepartureAirport(String departureAirport) {
+		this.departureAirport = departureAirport;
 	}
-	public String getFlightNum() {
-		return flightNum;
+
+	public String getDepartureAirportName() {
+		return departureAirportName;
 	}
-	public void setFlightNum(String flightNum) {
-		this.flightNum = flightNum;
+
+	public void setDepartureAirportName(String departureAirportName) {
+		this.departureAirportName = departureAirportName;
 	}
-	public String getDestination() {
-		return destination;
+
+	public String getDepartureAirportCity() {
+		return departureAirportCity;
 	}
-	public void setDestination(String destination) {
-		this.destination = destination;
+
+	public void setDepartureAirportCity(String departureAirportCity) {
+		this.departureAirportCity = departureAirportCity;
 	}
-	public String getCarrier() {
-		return carrier;
+
+	public String getDepartureAirportTerminal() {
+		return departureAirportTerminal;
 	}
-	public void setCarrier(String carrier) {
-		this.carrier = carrier;
+
+	public void setDepartureAirportTerminal(String departureAirportTerminal) {
+		this.departureAirportTerminal = departureAirportTerminal;
 	}
-	public String getOriginLong() {
-		return originLong;
+
+	public String getArrivalAirport() {
+		return arrivalAirport;
 	}
-	public void setOriginLong(String originLong) {
-		this.originLong = originLong;
+
+	public void setArrivalAirport(String arrivalAirport) {
+		this.arrivalAirport = arrivalAirport;
 	}
-	public String getDestinationLong() {
-		return destinationLong;
+
+	public String getArrivalAirportName() {
+		return arrivalAirportName;
 	}
-	public void setDestinationLong(String destinationLong) {
-		this.destinationLong = destinationLong;
+
+	public void setArrivalAirportName(String arrivalAirportName) {
+		this.arrivalAirportName = arrivalAirportName;
 	}
+
+	public String getArrivalAirportCity() {
+		return arrivalAirportCity;
+	}
+
+	public void setArrivalAirportCity(String arrivalAirportCity) {
+		this.arrivalAirportCity = arrivalAirportCity;
+	}
+
+	public String getArrivalAirportTerminal() {
+		return arrivalAirportTerminal;
+	}
+
+	public void setArrivalAirportTerminal(String arrivalAirportTerminal) {
+		this.arrivalAirportTerminal = arrivalAirportTerminal;
+	}
+
+	public String getStops() {
+		return stops;
+	}
+
+	public void setStops(String stops) {
+		this.stops = stops;
+	}
+
 	public String getArrivalTime() {
 		return arrivalTime;
 	}
+
 	public void setArrivalTime(String arrivalTime) {
 		this.arrivalTime = arrivalTime;
 	}
-	public String getArrivalDate() {
-		return arrivalDate;
+
+	public String getDepartureTime() {
+		return departureTime;
 	}
-	public void setArrivalDate(String arrivalDate) {
-		this.arrivalDate = arrivalDate;
+
+	public void setDepartureTime(String departureTime) {
+		this.departureTime = departureTime;
 	}
-	public String getDepTime() {
-		return depTime;
+
+	public String getCarrier() {
+		return carrier;
 	}
-	public void setDepTime(String depTime) {
-		this.depTime = depTime;
+
+	public void setCarrier(String carrier) {
+		this.carrier = carrier;
 	}
-	public String getDepDate() {
-		return depDate;
+
+	public String getCarrierName() {
+		return carrierName;
 	}
-	public void setDepDate(String depDate) {
-		this.depDate = depDate;
+
+	public void setCarrierName(String carrierName) {
+		this.carrierName = carrierName;
 	}
+
+	public String getCarrierPhone() {
+		return carrierPhone;
+	}
+
+	public void setCarrierPhone(String carrierPhone) {
+		this.carrierPhone = carrierPhone;
+	}
+
+	public String getFlightNumber() {
+		return flightNumber;
+	}
+
+	public void setFlightNumber(String flightNumber) {
+		this.flightNumber = flightNumber;
+	}
+
 }
